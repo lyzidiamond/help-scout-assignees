@@ -1,0 +1,26 @@
+{
+  "name": "help-scout-assignees",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "0.10.38"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lyzidiamond/help-scout-assignees.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyzidiamond/help-scout-assignees/issues"
+  },
+  "homepage": "https://github.com/lyzidiamond/help-scout-assignees",
+  "dependencies": {
+    "queue-async": "^1.0.7",
+    "request": "^2.57.0"
+  }
+}
