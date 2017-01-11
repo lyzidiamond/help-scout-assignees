@@ -19,3 +19,8 @@ Get a list of how many Help Scout conversations are assigned to each person in o
 7. Run the script:
 
     `$ node index.js [paste number]`
+
+## To do
+
+- [ ] create a slackbot so you can pipe these results directly into Slack
+- [ ] allow user to mention mailbox by name instead of IDs
