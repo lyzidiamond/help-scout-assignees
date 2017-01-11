@@ -79,8 +79,9 @@ function ticketsAssigned() {
 function mostTickets(userTickets) {
   keysSorted = (Object.keys(userTickets).sort(function(a,b){return userTickets[a] - userTickets[b]})).reverse()
   console.log("Assigned tickets: \n")
-  for (var i = 0; i < Object.keys(userTickets).length; i++) {
-    console.log('-' + keysSorted[i] + ' - ' + userTickets[keysSorted[i]] + ' tickets')
+  for (var i = 0; i < keysSorted.length; i++) {
+    var numberOfTickets = userTickets[keysSorted[i]]
+    console.log('-' + keysSorted[i] + ' - ' + numberOfTickets + ' ticket' + (numberOfTickets != 1 ? 's':''))
   }
 };
 
